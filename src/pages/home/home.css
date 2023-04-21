@@ -1,0 +1,182 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center                                                 
+}
+header { 
+    background-color: var(--blue800) ;
+
+
+    width: 100%;
+    height: 800px;
+    padding-top: 75px;
+ 
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden; 
+}
+#hContent {
+    z-index: 1;
+    flex-direction: column;
+}
+#hContent h1, h2{
+    margin: 5px 0px;
+    max-width: 740px;
+}
+#hButtons {
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+}
+#hBackground{
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    top: 0;
+    right: 0;
+    background-image: url('../../assets/images/headerImg.png');
+    background-size: cover;
+    background-position: center;
+}
+#bgCover{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, var(--blue800) 5.02%, rgba(5, 20, 50, 0) 43.17%);
+}
+
+
+/* Choice */
+#choice{
+    background-color: #090909;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#choice h2 {
+    color: #909090;
+    text-align: center;
+}
+
+#choiceStatus {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cStatus {
+    width: 450px;
+    height: 160px ;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cStatus-illustration {
+    position: relative;
+}
+.cStatus-illustration h1 {
+    font-weight: 500;
+    font-size: 2.8rem;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cStautstxt{
+    font-family: 'Martel', serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+/* Act Areas */
+#actAreas{
+    flex-direction: column;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: var(--grey100);
+    width: 100%;
+    overflow: hidden;
+}
+#actAreas .txtTitle {
+    color: var(--text900);
+    text-align: start;
+}
+#actAreas .txtSubtitle {
+    color: var(--text200);
+}
+#aaInfo{
+width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#separatorBar{
+    width: 2px;
+    height: 90px;
+    background-color:  #818284;
+}
+#aaDescription{
+    margin-left: 24px;
+}
+
+
+/* SWIPER */
+  
+  .swiper {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+  
+  .swiper-slide {
+    
+    width: fit-content;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+@media (max-width: 760px){
+
+    header {
+      height: auto;
+      padding-bottom: 20px;
+    }
+
+    #hBackground{
+        opacity: 0.6;
+    }
+    #hButtons {
+        flex-direction: column;
+    }
+    #hButtons button{
+      width: 100%;
+    }
+
+    .cStatus{
+        width: 100%;
+        flex-direction: column;
+        height: fit-content;
+        gap: 12px;
+    }
+
+    .cStautstxt{
+        font-size: 2.2rem;
+    }
+}

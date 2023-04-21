@@ -1,0 +1,75 @@
+#nav{
+    width: 100%;
+    position: absolute;
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--blue800);
+    z-index: 5;
+    transition: height 0.3s ease-in-out;
+}
+
+#navContent{
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+    height: 75px;
+}
+
+#logoCateb{
+    user-select: none;
+    width: 274px;
+    height: 25px;
+}
+#navLinks{
+    display: flex;
+    gap: 24px;
+}
+
+#linksMobile {
+    gap: 16px;
+    flex-direction: column;
+    display: none;
+    margin-bottom: 25px;
+    user-select: none;
+    overflow: hidden;
+    transition: all .3s;
+}
+
+.nLink {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+#hamburguerMobile{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/icons/hamburguer.svg");
+    display: none;
+}
+
+@media (max-width: 760px){
+    #navLinks{
+        display: none;
+    }
+    #hamburguerMobile{
+        display: flex;
+    }
+
+    #linksMobile {
+        display: flex;
+    }
+}
+@media (max-width: 450px){
+    #logoCateb{
+        width: 180px;
+    }
+}

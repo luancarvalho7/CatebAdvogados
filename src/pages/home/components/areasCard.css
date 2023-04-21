@@ -1,0 +1,34 @@
+.areasCard{
+    width: 520px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 32px 48px;
+    background-color: white;
+    border-radius: 12px;
+    cursor: grab;
+    user-select: none;
+}
+.areasCard .txtTitle{
+    line-height: 35px
+}
+.acFooter{
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.areasIcon{
+    width: 55px;
+}
+.acKnowMore{
+    background-color: #18181B;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.acKnowMore:hover{
+    background-color: black;
+}

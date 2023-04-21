@@ -1,0 +1,70 @@
+:root{
+    --grey100: #EEF1F4;
+    --blue800: #051432;
+    --text900: #101828;
+    --text200: #475467;
+
+}
+.txtHeading {
+    font-family: 'Martel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.8rem;
+}
+.txtTitle {
+    font-family: 'Martel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.6rem;
+    text-align: center;
+
+}
+.txtSubtitle{
+    font-weight: 400;
+    font-size: 1.8rem;
+
+}
+
+.btn {
+    cursor: pointer;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px;
+    border: solid 1px white;
+    outline: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 0px 25px;
+    transition: all .5s;
+}
+.btnMain {
+    background-color: var(--grey100);
+    color: #252B42;
+}
+.btnMain:hover {
+    background-color: white;
+}
+.btnSecond {
+    background-color: transparent;
+    color: white;
+}
+
+@media (max-width: 760px){
+.btn {
+    font-size: 1.8rem;
+}
+.txtHeading {
+    line-height: 30px;
+    font-size: 28px;
+}
+.txtTitle{
+        line-height: 30px;
+        font-size: 24px;
+}
+.txtSubtitle{
+    font-size: 16px;
+}
+}

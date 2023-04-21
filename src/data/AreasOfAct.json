@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Direito Tributário",
+    "description": "Auxiliamos na gestão de impostos e taxas, otimizando suas obrigações fiscais.",
+    "text": "null"
+  },
+  {
+    "id": 2,
+    "title": "Direito Societário",
+    "description": "Solucionamos conflitos societários e defendemos os interesses de acionistas.",
+    "text": "null"
+  },
+  {
+    "id": 3,
+    "title": "Direito Empresarial",
+    "description": "Oferecemos apoio jurídico em negócios, contratos e relações comerciais.",
+    "text": "null"
+  },
+  {
+    "id": 4,
+    "title": "Direito do Consumidor",
+    "description": "Protegemos consumidores de práticas abusivas e garantimos seus direitos.",
+    "text": "null"
+  },
+  {
+    "id": 5,
+    "title": "Direito Penal",
+    "description": "Defendemos e orientamos nossos clientes em processos criminais e penais.",
+    "text": "null"
+  },
+  {
+    "id": 6,
+    "title": "Direito Internacional",
+    "description": "Atuamos em questões jurídicas entre países e organizações internacionais.",
+    "text": "null"
+  },
+  {
+    "id": 7,
+    "title": "Direito Administrativo",
+    "description": "Assessoramos em processos envolvendo o Estado e órgãos públicos.",
+    "text": "null"
+  },
+  {
+    "id": 8,
+    "title": "Direito Trabalhista",
+    "description": "Zelamos pelos direitos de trabalhadores e empregadores em relações laborais.",
+    "text": "null"
+  },
+  {
+    "id": 9,
+    "title": "Direito Ambiental",
+    "description": "Buscamos a preservação do meio ambiente e o uso sustentável de recursos.",
+    "text": "null"
+  },
+  {
+    "id": 10,
+    "title": "Direito Previdenciário",
+    "description": "Orientamos sobre aposentadorias e benefícios, garantindo seus direitos.",
+    "text": "null"
+  },
+  {
+    "id": 11,
+    "title": "Direito Civil",
+    "description": "Atuamos em questões familiares, contratuais e patrimoniais, prezando pelo seu bem-estar.",
+    "text": "null"
+  },
+  {
+    "id": 12,
+    "title": "Planejamento Jurídico/Estratégico",
+    "description": "Oferecemos soluções estratégicas e organizadas para seus desafios legais.",
+    "text": "null"
+  }
+]
