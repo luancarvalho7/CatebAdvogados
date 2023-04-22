@@ -1,0 +1,54 @@
+#catebFooter {
+    width: 100%;
+    max-width: none;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: var(--blue800);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+#catebFooter section{
+    display: flex;
+    gap: 24px;
+}
+#footerCatebLogo {
+    margin-bottom: 24px;
+    width: 330px;
+}
+
+.fl-onlyLinks{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.fl-title {
+    font-family: 'Martel';
+    font-style: normal;
+    font-size: 18px;
+
+    border-top: solid 1px #3A4553;
+    border-bottom: solid 1px #3A4553;
+    padding: 10px;
+
+}
+.fl-link{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+.fl-link span{
+    font-weight: 600;
+}
+
+@media(max-width: 760px){
+    #catebFooter section{
+        display: grid;
+        gap: 24px;
+    }
+}

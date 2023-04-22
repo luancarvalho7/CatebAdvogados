@@ -14,32 +14,40 @@ export function Nav() {
         setnLinksOp((prevState) => (prevState === '0' ? '100' : '0'));
     };
 
+    const handleClick = (element) => {
+        const target = document.getElementById(element);
+        console.log('x')
+        if (target) {
+            target.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <nav id="nav" style={{
             backgroundColor: navHeight === '240px' ? `var(--blue800)` : 'transparent',
             height: navHeight
         }}>
             <div id="navContent" className="marginsSpacing">
-                <img src={catebadvogadosLogo} id="logoCateb" alt="Cateb Advogados Logo" />
+                <Link to='/'><img src={catebadvogadosLogo} id="logoCateb" alt="Cateb Advogados Logo" /></Link>
                 <div id="navLinks">
-                    <Link className="nLink" to="/"> Áreas de Atuação </Link>
+                    <a className="nLink" onClick={() => handleClick('actAreas')}>Áreas de Atuação</a>
                     <Link className="nLink" to="/"> Sobre </Link>
-                    <Link className="nLink" to="/"> Blog </Link>
-                    <Link className="nLink" to="/"> Contato </Link>
+{/*                     <Link className="nLink" to="/"> Blog </Link>
+ */}                    <Link className="nLink" to="/"> Contato </Link>
                 </div>
                 <div
                     id="hamburguerMobile"
                     onClick={togglenavHeight}
                     style={{
-                        backgroundImage: navHeight=== '240px' ? `url(${closeIcon})` : '',
+                        backgroundImage: navHeight === '240px' ? `url(${closeIcon})` : '',
                     }}
                 ></div>
             </div>
-            <div id="linksMobile" style={{opacity: nLinksOp}}>
-                <Link className="nLink" to="/"> Áreas de Atuação </Link>
+            <div id="linksMobile" style={{ opacity: nLinksOp }}>
+                <a className="nLink" onClick={() => handleClick('actAreas')}>Áreas de Atuação</a>
                 <Link className="nLink" to="/"> Sobre </Link>
-                <Link className="nLink" to="/"> Blog </Link>
-                <Link className="nLink" to="/"> Contato </Link>
+{/*                 <Link className="nLink" to="/"> Blog </Link>
+ */}                <Link className="nLink" to="/"> Contato </Link>
             </div>
         </nav>
     );

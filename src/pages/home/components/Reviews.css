@@ -1,0 +1,26 @@
+.reviewCard{
+    cursor: grab;
+    width: 56vw;
+    height: fit-content;
+    padding: 43px;
+    min-height: 280px;
+    border: solid 1px #FFFFFF;
+    border-radius: 24px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.reviewText{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (max-width: 760px){
+    .reviewCard{min-height: 200px;}
+    .reviewText{
+        font-size: 16px;
+    }
+}

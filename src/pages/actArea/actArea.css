@@ -1,0 +1,58 @@
+.actAreaPage {
+    background-color: var(--grey100);
+}
+.actAreaPage .txtTitle{
+    color: var(--text900);
+    
+}
+.aap-Content{
+    padding-top: 80px;
+    padding-bottom: 120px;
+    width: 100%;
+    
+}
+.aap-heading{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.aap-icon{
+    object-fit: contain;
+    width: 50px;
+    height: auto;
+}
+
+.aap-pArea{
+    margin: 24px 0px 12px 0px;
+    background-color: white;
+    width: 100%;
+    min-height: 500px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.aap-paragraph{
+
+    color: var(--text200);
+    font-size: 18px;
+}
+.aap-buttons{
+    width: 100%;
+    justify-content: end;
+    gap: 12px;
+    
+    display: flex;
+}
+.aap-buttons .btnSecond{
+    border-color: black;
+    text-decoration: none;
+
+    color: black;
+}
+.aap-buttons .btnMain{
+    background-color: black;
+    text-decoration: none;
+
+    color: white;
+}

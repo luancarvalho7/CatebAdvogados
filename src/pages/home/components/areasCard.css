@@ -1,4 +1,4 @@
-.areasCard{
+.areasCard {
     width: 520px;
     height: 250px;
     display: flex;
@@ -10,25 +10,53 @@
     border-radius: 12px;
     cursor: grab;
     user-select: none;
+    position: relative;
 }
-.areasCard .txtTitle{
+
+.areasCard .txtTitle {
     line-height: 35px
 }
-.acFooter{
+
+.acFooter {
     margin-top: 18px;
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-.areasIcon{
+
+.areasIcon {
     width: 55px;
 }
-.acKnowMore{
+
+.acKnowMore {
     background-color: #18181B;
     font-size: 20px;
     font-weight: 500;
     color: white;
+    text-decoration: none;
 }
-.acKnowMore:hover{
+
+.acKnowMore:hover {
     background-color: black;
+}
+
+@media (max-width: 760px) {
+    .areasCard {
+        min-width: 350px;
+        height: 280px;
+        width: 70vw;
+    }
+
+    .acFooter {
+        flex-direction: column;
+    }
+    .areasIcon{
+        top: 24px;
+        right: 30px;
+        width: 38px;
+        position: absolute;
+    }
+    .areasCard .txtTitle{
+        font-size: 22px;
+    }
 }

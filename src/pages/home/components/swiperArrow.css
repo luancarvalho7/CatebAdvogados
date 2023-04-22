@@ -1,0 +1,26 @@
+
+:root {
+    --swiper-navigation-size: 12px; /* Set the navigation size to a new value */
+    --swiper-theme-color: white; /* Set the theme color to a new value */
+  }
+.my-swiper .swiper-button-next,
+.my-swiper .swiper-button-prev {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    border-radius: 100%
+}
+
+.my-swiper .swiper-button-next:hover,
+.my-swiper .swiper-button-prev:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.my-swiper .swiper-button-next {
+    right: 10px;
+}
+
+.my-swiper .swiper-button-prev {
+    left: 10px;
+}

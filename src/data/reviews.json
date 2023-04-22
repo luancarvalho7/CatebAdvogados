@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Lucas Silva",
+        "review": "A equipe foi extremamente atenciosa e resolveu minha questão tributária com rapidez."
+    },
+    {
+        "id": 2,
+        "name": "Ana Paula Oliveira",
+        "review": "Resolveram os problemas societários da minha empresa com eficiência e profissionalismo."
+    },
+    {
+        "id": 3,
+        "name": "José Souza",
+        "review": "Graças ao apoio jurídico, pude expandir meu negócio com segurança e tranquilidade."
+    },
+    {
+        "id": 4,
+        "name": "Fernanda Almeida",
+        "review": "Defenderam meus direitos como consumidora e obtive a indenização justa. Recomendo!"
+    },
+    {
+        "id": 5,
+        "name": "Carlos Costa",
+        "review": "Consultoria trabalhista excelente. Resolveram a disputa com meu ex-empregador rapidamente."
+    },
+    {
+        "id": 6,
+        "name": "Patrícia Santos",
+        "review": "Me ajudaram com questões familiares, tratando o caso com sensibilidade e profissionalismo."
+    }
+]

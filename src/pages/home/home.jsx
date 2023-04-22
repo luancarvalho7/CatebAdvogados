@@ -1,11 +1,14 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper";
 import "swiper/css";
-import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "./components/swiperArrow.css"
 import './home.css'
 
 import areasOfAct from '../../data/AreasOfAct.json'
 import { AreasCard } from './components/areasCard'
+
 
 import chartHeart from '../../assets/images/chartHeart.svg'
 import chartStar from '../../assets/images/chartStar.svg'
@@ -40,6 +43,8 @@ const areaIcons = {
     12: dJuridico
 };
 
+import { Reviews } from "./components/Reviews";
+import reviewsData from "../../data/reviews.json"
 
 
 export function Home() {
@@ -80,7 +85,7 @@ export function Home() {
                     </h2></div>
                 </div>
                 {
-                    <Swiper slidesPerView={'auto'} spaceBetween={24} centeredSlides={false}>
+                    <Swiper slidesPerView={'auto'} spaceBetween={24} centeredSlides={false} navigation={true} modules={[Navigation]} className="my-swiper">
                         {areasOfAct.map(area => (
                             <SwiperSlide key={area.id}>
                                 <AreasCard
@@ -95,7 +100,16 @@ export function Home() {
                     </Swiper>
                 }
             </section>
+            <section id="reviewsSection" className="marginsSpacing">
+                <h1 className="txtTitle">O que nossos clientes dizem?</h1>
+                <Swiper slidesPerView={'auto'} spaceBetween={24} centeredSlides={true} navigation={true} modules={[Navigation]}  effect="fade" className="my-swiper">
+                    {reviewsData.map(review => <SwiperSlide key={review.id}> <Reviews
+                        key={review.id}
+                        name={review.name}
+                        review={review.review}
+                    /> </SwiperSlide>)}
+                </Swiper>
+            </section>
         </main >
-
     )
 }
