@@ -50,7 +50,7 @@ import reviewsData from "../../data/reviews.json"
 export function Home() {
     return (
         <main>
-            <header >
+            <header id="headerHome">
                 <div id="hContent" className='marginsSpacing'>
                     <h1 className='txtHeading'>Impacto Jurídico, Resultados Surpreendentes</h1>
                     <h2 className='txtSubtitle'>Advogados Experientes e Comprometidos com o Equilíbrio entre seus Direitos, Interesses e o Bem Comum</h2>
@@ -60,7 +60,7 @@ export function Home() {
                     </div>
                 </div>
                 <div id='hBackground'>
-                    <div id="bgCover"></div>
+                    <div className="bgCover"></div>
                 </div>
             </header>
             <section id='choice' className='marginsSpacing'>

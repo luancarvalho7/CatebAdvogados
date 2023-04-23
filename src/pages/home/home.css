@@ -3,7 +3,7 @@ main{
     flex-direction: column;
     align-items: center                                                 
 }
-header { 
+#headerHome { 
     background-color: var(--blue800) ;
 
 
@@ -43,7 +43,7 @@ header {
     background-size: cover;
     background-position: center;
 }
-#bgCover{
+.bgCover{
     width: 100%;
     height: 100%;
     background: linear-gradient(90deg, var(--blue800) 5.02%, rgba(5, 20, 50, 0) 43.17%);

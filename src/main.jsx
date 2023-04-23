@@ -4,6 +4,7 @@ import {App} from './App.jsx'
 
 import { Home } from './pages/home/home.jsx';
 import { ActArea } from './pages/actArea/actArea.jsx';
+import { About } from './pages/about/about.jsx';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/area/:id",
         element: <ActArea />
+      },
+      {
+        path: "/sobre",
+        element: <About />
       },
     ]
   }

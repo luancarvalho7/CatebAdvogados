@@ -24,8 +24,7 @@ export function Footer() {
                     <div className="fl-onlyLinks">
                         <Link to="/" className="fl-link">Início</Link>
                         <a className="fl-link" onClick={()=>handleClick('actAreas')}>Áreas de Atuação</a>
-                        <Link to="/" className="fl-link">Sobre</Link>
-                        <Link to="/" className="fl-link">Blog</Link>
+                        <Link to="/sobre" className="fl-link">Sobre</Link>
                     </div>
                 </div>
 
