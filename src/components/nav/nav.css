@@ -12,14 +12,14 @@
 #navContent{
     justify-content: space-between;
     align-items: center;
-    min-height: 75px;
-    height: 75px;
+    min-height: 90px;
+    height: 90px;
 }
 
 #logoCateb{
     user-select: none;
-    width: 274px;
-    height: 25px;
+    width: 320px;
+    height: auto;
 }
 #navLinks{
     display: flex;

@@ -67,7 +67,7 @@ export function Home() {
                     <div className="bgCover"></div>
                 </div>
             </header>
-            <section id='choice' className='marginsSpacing'>
+{/*             <section id='choice' className='marginsSpacing'>
                 <h1 className='txtTitle'>A Escolha Simples para Disputas Complexas</h1>
                 <h2 className="txtSubtitle">Compromisso com a justiça, equilíbrio e respeito aos direitos e interesses de nossos clientes em todas as situações</h2>
                 <div id="choiceStatus">
@@ -80,7 +80,7 @@ export function Home() {
                         <h1 className='cStautstxt'>Casos bem-sucedidos</h1>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section id='actAreas' className='marginsSpacing'>
                 <div id="aaInfo">
                     <div id="aaTitle"><h1 className='txtTitle'>Nossas Áreas de Atuação</h1> <img src={decoImg} /></div>
@@ -104,7 +104,7 @@ export function Home() {
                     </Swiper>
                 }
             </section>
-            <section id="reviewsSection" className="marginsSpacing">
+{/*             <section id="reviewsSection" className="marginsSpacing">
                 <h1 className="txtTitle">O que nossos clientes dizem?</h1>
                 <Swiper slidesPerView={'auto'} spaceBetween={24} centeredSlides={true} navigation={true} modules={[Navigation]}  effect="fade" className="my-swiper">
                     {reviewsData.map(review => <SwiperSlide key={review.id}> <Reviews
@@ -113,7 +113,7 @@ export function Home() {
                         review={review.review}
                     /> </SwiperSlide>)}
                 </Swiper>
-            </section>
+            </section> */}
         </main >
     )
 }
