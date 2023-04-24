@@ -1,6 +1,7 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
+import { useNavigate } from 'react-router-dom';
 import "swiper/css";
 import "swiper/css/navigation";
 import "./components/swiperArrow.css"
@@ -48,6 +49,9 @@ import reviewsData from "../../data/reviews.json"
 
 
 export function Home() {
+
+    const navigate = useNavigate();
+
     return (
         <main>
             <header id="headerHome">
@@ -55,8 +59,8 @@ export function Home() {
                     <h1 className='txtHeading'>Impacto Jurídico, Resultados Surpreendentes</h1>
                     <h2 className='txtSubtitle'>Advogados Experientes e Comprometidos com o Equilíbrio entre seus Direitos, Interesses e o Bem Comum</h2>
                     <div id="hButtons">
-                        <button className='btn btnMain'> Fale Conosco </button>
-                        <button className='btn btnSecond'> Saiba Mais </button>
+                        <button className='btn btnMain' > Fale Conosco </button>
+                        <button className='btn btnSecond' onClick={ () => navigate('/sobre')}> Saiba Mais </button>
                     </div>
                 </div>
                 <div id='hBackground'>
