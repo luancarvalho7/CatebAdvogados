@@ -62,9 +62,10 @@ export function About() {
                         <h1 className='txtTitle'>Quem nós somos?</h1>
                         <img src={deco} />
                     </div>
-                    <p className='txtSubtitle'>Somos um escritório de advocacia que presta serviços de Consultoria e Planejamento Jurídico, tendo como foco o Direito Empresarial, identificando tendências e oportunidades, oferecendo a seus clientes serviços personalizados, baseados na experiência e habilidades de sua equipe técnica. A empresa busca equilibrar os interesses do cliente com o Direito e o bem comum, fundamentando-se em objetividade, comprometimento, eficiência e criatividade.<br /><br />
+                    <p className='txtSubtitle'>Somos um escritório de advocacia que presta serviços de Consultoria , Contencioso e Planejamento Jurídico, com atuação forte no Direito Empresarial.<br/><br/>
 
-                        Atendemos clientes com diversos conflitos jurídicos, focando em questões legais complexas e situações de alto conflito para proporcionar soluções eficientes e personalizadas no Direito Empresarial.</p>
+O escritório oferece aos clientes serviços personalizados, baseados na vasta experiência e nas habilidades da equipe técnica, que perpassam por todas as áreas do Direito, fazendo possível defender os mais diversos interesses e necessidades dos clientes, sejam pessoas jurídicas ou físicas, sempre de forma fundamentada, objetiva, comprometida, eficiente e criativa.
+</p>
                 </div>
                 <div id="ourValues">
                     <div id="ov-title">

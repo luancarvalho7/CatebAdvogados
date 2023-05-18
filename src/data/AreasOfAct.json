@@ -2,78 +2,61 @@
   {
     "id": 1,
     "title": "Direito Tributário",
-    "description": "Auxiliamos na gestão de impostos e taxas, otimizando suas obrigações fiscais.",
-    "text": "Consultoria Tributária referente às legislações na área federal, estadual, municipal e previdenciária;\n\nAcompanhamento e orientação em procedimentos fiscalizatórios;\n\nDefesas administrativas junto à Receita Federal, Receita Estadual, INSS e Prefeituras;\n\nExecuções Fiscais;\n\nMandados de Segurança;\n\nAnulatórias de débitos fiscais;\n\nProgramas de Parcelamentos Ordinários e Especiais;\n\nEstudo de incidência de impostos em operações comerciais, industriais e prestação de serviços;"  },
+    "description": "Auxiliamos na gestão e compliance tributária, otimizando as obrigações fiscais e reduzindo riscos para as empresas.",
+    "text": "- Consultoria Tributária referente à legislação federal, estadual, municipal\n\n- Defesas administrativas\n\n-Execuções Fiscais e Anulatórias de débitos\n\n-Mandados de Segurança\n\n-Consultoria sobre Programas de Parcelamentos Ordinários e Especiais\n\n- Estudos e elaboração de parecer sobre incidência de impostos nas operações do comércio, prestação de serviços e indústria"
+  },
   {
     "id": 2,
-    "title": "Direito Societário",
-    "description": "Solucionamos conflitos societários e defendemos os interesses de acionistas.",
-    "text": "- Planejamento e reestruturações societárias.\n\n- Fusões, Cisões e Incorporações.\n\n- Resolução de Conflitos Societários.\n\n- Acompanhamento de assembleias e reuniões da administração.\n\n-Prestação de consultoria especializada.\n\n-Elaboração de pareceres."
-
+    "title": "Direito Empresarial",
+    "description": "Solucionamos conflitos societários e defendemos os interesses de acionistas, oferecemos apoio jurídico em negócios, contratos e relações comerciais.",
+    "text": "-Planejamento e reestruturações societárias.\n\n- Fusões, Cisões e Incorporações.\n\n- Resolução de Conflitos Societários.\n\n- Acompanhamento de assembleias e reuniões da administração.\n\n-Prestação de consultoria especializada.\n\n-Elaboração de pareceres.\n\n- Análise e elaboração de contratos comerciais diversos\n\n- Compra e venda de ativos\n\n- Cobranças e Execuções\n\n- Recuperação Judicial de Empresas\n\n- Títulos de Crédito\n\n- Imobiliário"
   },
   {
     "id": 3,
-    "title": "Direito Empresarial",
-    "description": "Oferecemos apoio jurídico em negócios, contratos e relações comerciais.",
-    "text": "- Análise e elaboração de contratos comerciais diversos\n\n- Compra e venda de ativos\n\n- Cobranças e Execuções\n\n- Recuperação Judicial de Empresas\n\n- Títulos de Crédito\n\n- Imobiliário"
-
+    "title": "Direito Civil e Relações de Consumo",
+    "description": "Atuamos no consultivo e contencioso civil e consumerista.",
+    "text": "- Elaboração de de Pareceres Jurídicos, Defesas Administrativas perante Órgãos de Proteção ao Consumidor, intermediação na negociação com fornecedores e consumidores e Assessoria na elaboração de Contratos de Adesão\n\n- Elaboração de pareceres e planejamentos envolvendo Direito de Família e Sucessões, bem como acompanhamento completo de ações judiciais de divórcio, guarda, de alimentos, dissolução de união estável, alteração de regime de casamento, inventário, arrolamento"
   },
   {
     "id": 4,
-    "title": "Direito do Consumidor",
-    "description": "Protegemos consumidores de práticas abusivas e garantimos seus direitos.",
-    "text": "- Elaboração de Parecer Jurídico de Relação de Consumo\n\n- Elaboração de Defesa Administrativa perante Órgãos de Proteção ao Consumidor\n\n- Negociações comerciais\n\n- Elaboração de Defesas perante Órgãos Judiciais\n\n- Assessoria na elaboração de Contrato de Adesão"
-
+    "title": "Direito Penal",
+    "description": "Defendemos e orientamos em processos criminais e inquéritos.",
+    "text": "- Direito Penal Empresarial.\n\n- Direito Penal Ambiental.\n\n- Crimes Contra a Ordem Tributária e Sistema Financeiro.\n\n- Violação de direitos autorais, marcas e patentes.\n\n- Direito Penal em geral.\n\n-Acompanhamento de inquéritos policiais e de ações penais (primeira instância de julgamento até o Supremo Tribunal Federal)"
   },
   {
     "id": 5,
-    "title": "Direito Penal",
-    "description": "Defendemos e orientamos nossos clientes em processos criminais e penais.",
-    "text": "- Direito Penal Empresarial.\n\n- Direito Penal Ambiental.\n\n- Crimes Contra a Ordem Tributária.\n\n- Crimes Contra o Sistema Financeiro.\n\n- Violação de direito autoral, marcas e patentes.\n\n- Direito Penal em geral.\n\n-Acompanhamento de inquéritos policiais e outras formas de investigação e de ações penais (primeira instância de julgamento até o Supremo Tribunal Federal)."
-  },
-  {
-    "id": 6,
     "title": "Direito Internacional",
     "description": "Atuamos em questões jurídicas entre países e organizações internacionais.",
-    "text": "- Consultoria Internacional\n\n- Trading e processos Discovery\n\n- Defesas Administrativas e Judiciais\n\n- Desembaraço Aduaneiros\n\n- Elaboração de planos de Exportação e Importação\n\n- Acompanhamento Jurídico de Exportação e Importação\n\n- Internacionalização de Empresas"
-
-  },
-  {
-    "id": 7,
+    "text": "- Consultoria Internacional completa\n\n- Trading e Discovery\n\n- Defesas Administrativas e Judiciais\n\n- Desembaraço Aduaneiro\n\n- Elaboração de planos de Exportação e Importação\n\n- Acompanhamento Jurídico de Exportação e Importação\n\n- Internacionalização de Empresas"
+},
+{
+    "id": 6,
     "title": "Direito Administrativo",
-    "description": "Assessoramos em processos envolvendo o Estado e órgãos públicos.",
-    "text": "- Consultoria em procedimentos Licitatórios\n\n- Planejamento para participação em licitações públicas\n\n- Elaboração de medidas administrativas e Judiciais em Procedimentos Licitatórios\n\n- Defesas Administrativas Municipais, Estaduais e Federais.\n\n- Consultoria Plena Administrativa\n\n- Consultoria perante Agências Reguladoras\n\n- Assessoria e Consultoria da Legislação Antitruste\n\n- Consultoria em PPP – Parceria Pública Privada"
-
-  },
-  {
-    "id": 8,
+    "description": "Assessoramos em processos envolvendo a Administração Pública em geral.",
+    "text": "- Consultoria e planejamento de procedimentos Licitatórios\n\n- Elaboração de medidas administrativas e Judiciais em Procedimentos Licitatórios\n\n- Defesas Administrativas Municipais, Estaduais e Federais.\n\n- Consultoria Plena Administrativa\n\n- Consultoria perante Agências Reguladoras\n\n- Assessoria e Consultoria da Legislação Antitruste\n\n- Consultoria em PPP – Parceria Pública Privada"
+},
+{
+    "id": 7,
     "title": "Direito Trabalhista",
-    "description": "Zelamos pelos direitos de trabalhadores e empregadores em relações laborais.",
-    "text": "- Defesas Judiciais e Administrativas e acompanhamento de processos Trabalhistas\n\n- Consultoria em procedimentos Trabalhistas\n\n- Gestão de Passivo Trabalhista\n\n- Negociações Sindicais\n\n- Assessoria em Termos de Ajustamento de Conduta"
-  },
-  {
-    "id": 9,
+    "description": "Zelamos pelos direitos de empregadores e empregados nas variadas relações laborais.",
+    "text": "- Defesas Judiciais e Administrativas e acompanhamento completo dos processos\n\n- Consultoria em procedimentos e Compliance\n\n- Gestão de Passivo Trabalhista\n\n- Negociações Sindicais\n\n- Assessoria em Termos de Ajustamento de Conduta"
+},
+{
+    "id": 8,
     "title": "Direito Ambiental",
-    "description": "Buscamos a preservação do meio ambiente e o uso sustentável de recursos.",
-    "text": "- Consultoria e assessoria em questões de Direito Ambiental para empresas e pessoas físicas;\n\n- Análise e elaboração de estudos de impacto ambiental e relatórios de impacto ao meio ambiente;\n\n- Licenciamento ambiental, autorizações e outorgas;\n\n- Defesas administrativas perante órgãos ambientais e Ministério Público;\n\n- Ações civis públicas, ações populares e ações de responsabilidade por danos ao meio ambiente;\n\n- Implementação de sistemas de gestão ambiental e auditorias;\n\n- Negociação e elaboração de Termos de Ajustamento de Conduta (TAC);\n\n- Assessoria em questões relacionadas ao uso de recursos naturais, áreas de preservação e unidades de conservação."
-  },
-  {
-    "id": 10,
-    "title": "Direito Previdenciário",
-    "description": "Orientamos sobre aposentadorias e benefícios, garantindo seus direitos.",
-    "text": "- Assessoria e consultoria jurídica para empresas na área de custeio da previdência social, no acompanhamento de processos administrativos e judiciais.\n\n- Desaposentação.\n\n- Planejamento previdenciário\n\n- Cálculo, análise e questionamento acerca do Fator Acidentário de Prevenção (FAP)\n\n- Cálculos de benefícios e contribuições previdenciárias\n\n- Consultoria e advocacia contenciosa para entidades da Administração Pública direta e indireta relacionadas ao custeio, regime geral e regime próprio de previdência\n\n- Consultoria jurídica para pessoa física na análise e concessão de benefícios vinculados aos Regimes Próprios de Servidores Púbicos e Regimes de Previdência Complementar.\n\n- Assessoria em Previdência Complementar.\n\n- Defesa de auto de infração.\n\n- Assessoria previdenciária para servidor público."
-  },
-  {
-    "id": 11,
-    "title": "Direito Civil",
-    "description": "Atuamos em questões familiares, contratuais e patrimoniais, prezando pelo seu bem-estar.",
-    "text": "- Atuação no Direito Civil, nas modalidades consultoria e judiciária (defesa e propositura de demanda judicial), na justiça comum, instâncias superiores e juizados especiais, com atendimento a pessoa jurídica e física, em todos os seus sub-ramos;\n\n- Obrigações;\n\n- Confecção, análise e revisão dos diversos tipos de contratos cíveis e empresariais;\n\n- Reparação de danos materiais, morais, estéticos e lucros cessantes;\n\n- Demandas relativas à propriedade e posse, direito de vizinhança, condômino e locação;\n\n- Demandas nas áreas de Direito das Famílias e Sucessões;\n\n- Elaboração de acordos extrajudiciais e homologação."
-  },
-  {
-    "id": 12,
-    "title": "Planejamento Jurídico/Estratégico",
-    "description": "Oferecemos soluções estratégicas e organizadas para seus desafios legais.",
-    "text": "O desenvolvimento de um Planejamento Estratégico necessita ter inteira sintonia com os\nobjetivos das empresas e o Direito.\n\n\nAssim, a nossa assessoria visa acompanhar o planejamento de negócios em sintonia com\ntoda as áreas do Direito Empresarial ajustando os modelos para dar segurança jurídica a\ntodos os empreendimentos."
-
-  }
+    "description": "Atuamos em processos judiciais e administrativos envolvendo o Direito Ambiental.",
+    "text": "- Consultoria e assessoria em questões de Direito Ambiental para empresas e pessoas físicas\n\n- Defesas administrativas perante órgãos ambientais e Ministério Público\n\n- Acompanhamento e defesa em Ações Civis Públicas, Ação popular e Ações de Responsabilidade por danos ao meio ambiente\n\n- Negociação e auxílio na confecção de Termos de Ajustamento de Conduta (TAC)"
+},
+{
+  "id": 9,
+  "title": "Direito Previdenciário",
+  "description": "Orientamos empresas e pessoas físicas sobre concessão e revisão de benefícios e aposentadorias.",
+  "text": "- Assessoria e consultoria jurídica para empresas na área de custeio da previdência social, no acompanhamento de processos administrativos e judiciais\n\n- Planejamento previdenciário\n\n- Cálculo, análise e questionamento acerca do Fator Acidentário de Prevenção (FAP)\n\n- Cálculos de benefícios e contribuições previdenciárias\n\n- Consultoria e advocacia contenciosa para entidades da Administração Pública direta e indireta relacionadas ao custeio, regime geral e regime próprio de previdência\n\n- Consultoria jurídica para pessoa física na análise e concessão de benefícios vinculados aos Regimes Próprios de Servidores Púbicos e Regimes de Previdência Complementar.\n\n- Assessoria em Previdência Complementar.\n\n- Defesa de auto de infração.\n\n- Assessoria previdenciária para servidor público."
+},
+{
+  "id": 10,
+  "title": "Planejamento Jurídico/Estratégico",
+  "description": "Oferecemos soluções estratégicas e organizadas para seus desafios legais. O desenvolvimento de um Planejamento Estratégico necessita ter inteira sintonia com os objetivos das empresas e o Direito.",
+  "text": "Assim, a nossa assessoria visa acompanhar o planejamento de negócios em sintonia com toda as áreas do Direito Empresarial ajustando os modelos para dar segurança jurídica a todos os empreendimentos."
+}
 ]

@@ -1,0 +1,13 @@
+#contact {
+    padding-top: 120px;   
+    background-color: var(--blue800);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cct-Title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -18,18 +18,16 @@ import dAmbiental from '../../assets/icons/Areas/dAmbiental.png';
 import dAdministrativo from '../../assets/icons/Areas/dAdministrativo.png';
 
 const areaIcons = {
-    1: dTributario,
-    2: dSocietario,
-    3: dEmpresarial,
-    4: dConsumidor,
-    5: dPenal,
-    6: dInternacional,
-    7: dAdministrativo,
-    8: dTrabalhista,
-    9: dAmbiental,
-    10: dPrevidenciario,
-    11: dCivil,
-    12: dJuridico
+  1: dTributario,
+  2: dEmpresarial,
+  3: dCivil,
+  4: dPenal,
+  5: dInternacional,
+  6: dAdministrativo,
+  7: dTrabalhista,
+  8: dAmbiental,
+  9: dPrevidenciario,
+  10: dJuridico,
 }   
 
 export function ActArea() {

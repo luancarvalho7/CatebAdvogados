@@ -60,3 +60,13 @@
         font-size: 22px;
     }
 }
+
+@media (max-width: 425px) {
+    .areasCard {
+  /*       position: relative;
+        right: 30px; */
+        height: 280px;
+        width: 90vw;
+
+    }
+}

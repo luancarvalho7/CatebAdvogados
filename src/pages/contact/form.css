@@ -1,0 +1,70 @@
+#cct-Form {
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+}
+
+#cct-Form label {
+    font-size: 14px;
+    color: white;
+    opacity: .8;
+}
+
+#cct-Form input {
+    color: white;
+    margin: 5px 0px 10px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 10px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    border: solid 1px white;
+    background: rgba(255, 255, 255, 0.2);
+    transition: all 0.4s;
+}
+
+#cct-Form input:focus {
+    color: black;
+    background: rgba(255, 255, 255, 100);
+}
+
+#cct-Form textarea {
+    margin: 5px 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 10px;
+    border-radius: 12px;
+    outline: none;
+    font-size: 14x;
+    height: 350px;
+    resize: none;
+    background: rgba(255, 255, 255, 0.2);
+    border: solid 1px white;
+    color: white;
+    transition: all 0.4s;
+
+}
+
+#cct-Form button {
+    cursor: pointer;
+    background: white;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 300px;
+    transition: all 0.4s;
+
+}
+
+#cct-Form button:hover{
+    background-color: black;
+    color: white;
+}
+#cct-Form textarea:focus {
+    background: rgba(255, 255, 255, 100);
+    color: black;
+}

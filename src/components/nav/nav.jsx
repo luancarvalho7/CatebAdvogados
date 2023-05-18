@@ -49,7 +49,7 @@ export function Nav() {
                     )}
 
                     <Link className="nLink" to="/sobre"> Sobre </Link>
-                    <Link className="nLink" to="/"> Contato </Link>
+                    <Link className="nLink" to="/contato"> Contato </Link>
                 </div>
                 <div
                     id="hamburguerMobile"
